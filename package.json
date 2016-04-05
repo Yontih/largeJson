@@ -1,0 +1,22 @@
+{
+  "name": "large-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha ./tests"
+  },
+  "author": "Ido Schachter <ido.schachter@ironsrc.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.isarray": "^4.0.0",
+    "lodash.isobject": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  }
+}
