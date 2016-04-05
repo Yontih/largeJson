@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha ./tests"
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha ./tests",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "author": "Ido Schachter <ido.schachter@ironsrc.com>",
   "license": "ISC",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "sinon": "^1.17.3",
