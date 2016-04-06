@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:id0Sch/largeJson.git"
-  }
+  },
   "dependencies": {
     "lodash.isarray": "^4.0.0",
     "lodash.isobject": "^3.0.2"
